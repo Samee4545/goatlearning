@@ -126,8 +126,7 @@ class _PdfViewScreenState extends State<PdfViewScreen> {
       ),
       body: Column(
         children: [
-          Container(
-            decoration: BoxDecoration(color: AppColors.appColor),
+          Expanded(
             child: Container(
               height: MediaQuery.of(context).size.height * 0.80,
               decoration: BoxDecoration(
